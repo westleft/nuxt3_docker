@@ -1,75 +1,18 @@
-# Nuxt 3 Minimal Starter
+# 測試
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+nuxt3 一直出現 node 版本警告，乾脆用 docker 
 
-## Setup
+## 啟動專案
 
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+```
+docker compose up
 ```
 
-## Development Server
+打開 `http://localhost:3000/`
 
-Start the development server on `http://localhost:3000`:
+## 部屬 [Render](https://render.com/)
 
-```bash
-# npm
-npm run dev
+* Build Command：`npm install && npm run generate`
+* Publish directory：`.output/public`
 
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+https://nuxt3-docker.onrender.com/test
