@@ -15,4 +15,3 @@ services:
         source: ./
         target: /srv/app
     tty: true
-
